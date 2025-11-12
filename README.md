@@ -1,11 +1,20 @@
 # Google × Kaggle AI Agents Intensive (Nov 10–14, 2025)
 
-This repository contains materials and notes from the **5-Day AI Agents Intensive** conducted by **Google ML Research** and **Kaggle**.  
-The program focuses on the design, orchestration, and evaluation of AI agents capable of reasoning, acting, and collaborating autonomously.
+This repository documents my progress through the **5-Day Google × Kaggle AI Agents Intensive**, a hands-on learning program focused on building intelligent, autonomous systems that can plan, reason, and act through structured orchestration and tool integration.
 
 ---
 
-## 📘 Contents
+## 🧭 Program Focus
+
+The intensive explores the complete lifecycle of agentic AI systems:
+- **Design** – understanding agent architectures, reasoning frameworks, and taxonomy.  
+- **Interoperability** – connecting agents to external tools and APIs using the Model Context Protocol (MCP).  
+- **Memory & Context** – enabling agents to retain context and reason across multi-turn interactions.  
+- **Quality** – improving reliability, observability, and evaluation through measurable metrics.  
+- **Deployment** – scaling and connecting multi-agent systems using the Agent-to-Agent (A2A) framework.  
+---
+
+## 📂 Repository Structure
 
 ```
 google-ai-agents-intensive/
@@ -20,32 +29,34 @@ google-ai-agents-intensive/
 └── README.md
 ```
 
----
-
-## 🧩 Overview
-
-**Day 1 – Introduction to Agents**  
-Explores the foundational concepts of agentic systems, including:
-- The *Brain–Hands–Nervous System* analogy for model reasoning, tool execution, and orchestration.
-- A five-stage agentic workflow: *Mission → Scan the Scene → Think → Act → Observe & Iterate*.
-- The taxonomy of agents from Level 0 (core reasoning) to Level 4 (self-evolving systems).
-
-**Hands-On Labs**
-- **1a – From Prompt to Action:** Building a Gemini-powered agent with the Agent Development Kit (ADK).  
-- **1b – Agent Architectures:** Implementing multi-agent workflows using sequential, parallel, and loop orchestration patterns.
+Each folder includes:
+- **Whitepapers** – conceptual summaries outlining frameworks and design principles.  
+- **Notebooks** – Kaggle codelabs translating theory into working agentic systems.  
+- **Reflections** – technical insights and implementation learnings from each day.
 
 ---
 
-## 🧠 Tech Stack
+## 🧩 Day 1 – Key Learnings
+
+- **Agentic Architectures** – Explored orchestration layers, function calling, and memory systems that enable agents to coordinate reasoning and action.  
+- **ReAct Framework** – Implemented the *Reasoning + Acting* loop, where agents iteratively think, act, and observe.  
+- **Function Calling with Gemini API** – Created agents that dynamically trigger real-world actions and API calls.  
+- **Agent Design Patterns** – Practiced **Sequential**, **Parallel**, and **Loop** orchestration for multi-step workflows.  
+- **ADK (Agent Development Kit)** – Used Gemini + ADK to design a multi-agent system and experiment with collaboration between specialized agents.
+
+---
+
+## ⚙️ Technologies
 - **Gemini / ADK (Agent Development Kit)**  
 - **Python**, **Kaggle Notebooks**  
-- **LLM Agents**, **Multi-Agent Coordination Patterns**
+- **Model Context Protocol (MCP)**  
+- **Agent-to-Agent (A2A)** communication framework
 
 ---
 
-## 🤝 Acknowledgments
-Developed as part of the Google × Kaggle AI Agents Intensive, with contributions from  
-Kanchana Patlolla, Anant Nawalagaria, and the Google ML Research Team.
+## 🙏 Acknowledgment
+Created while participating in the **Google × Kaggle AI Agents Intensive**, developed by  
+Google ML **Researchers and Engineers** in collaboration with the Kaggle team.
 
 ---
 
